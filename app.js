@@ -10,11 +10,11 @@ function millipsumBank(elem){
 	var minWord = 75; 
 	var maxWord = 150; 
 
-	var random = Math.floor(Math.random()**(maxWord - minWord)) + minWord; 
+	var random = Math.floor(Math.random() * (maxWord - minWord)) + minWord; 
 
 	var result = ""; 
 	for (i = 0; i < random; i++){
-		var newText = millipsum[Math.floor(Math.random()* (millipsum.length - 1 ))];
+		var newText = millipsum[Math.floor(Math.random() * (millipsum.length - 1 ))];
 		if(result.substring(result.length-1, result.length) == "." || result.substring(result.length-1, result.length) == "?"){
 			newText = newText.substring(0,1).toUpperCase() + newText.substring(1, newText.length); 
 		}
