@@ -10,7 +10,7 @@ function millipsumBank(elem){
 	var minWord = 75; 
 	var maxWord = 150; 
 
-	var random = Math.floor(Math.random()**(maxWord - minWord)) + minWord; 
+	var random = Math.floor(Math.random() * (maxWord - minWord)) + minWord; 
 
 	var result = ""; 
 	for (i = 0; i < random; i++){
